@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yumeng</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-inner">
+      <a href="#about" class="site-name">Yumeng</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about"          class="nav-link active">about</a></li>
+          <li><a href="#now"            class="nav-link">now</a></li>
+          <li><a href="#digital-garden" class="nav-link">digital garden</a></li>
+          <li><a href="#learnings"      class="nav-link">learnings</a></li>
+          <li><a href="#contact"        class="nav-link">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <!-- Mobile top bar -->
+  <header class="mobile-header" id="mobile-header">
+    <a href="#about" class="site-name">Yumeng</a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile nav drawer -->
+  <div class="mobile-nav" id="mobile-nav">
+    <ul class="nav-links">
+      <li><a href="#about"          class="nav-link">about</a></li>
+      <li><a href="#now"            class="nav-link">now</a></li>
+      <li><a href="#digital-garden" class="nav-link">digital garden</a></li>
+      <li><a href="#learnings"      class="nav-link">learnings</a></li>
+      <li><a href="#contact"        class="nav-link">contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Main content -->
+  <main class="content">
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h1>Hi, I'm Yumeng.</h1>
+      <div class="bio">
+        <p>I was born and raised in Beijing. I studied computing science in college and economics in graduate school, only to learn that I wasn't meant to live inside equations or models alone. What has always pulled me forward is something quieter and deeper: how people think, and how technology subtly reshapes the way we see and move through the world.</p>
+        <p>I began my career in product management, where I learned to listen—to data, to users, to what isn't said. I ran experiments, tested assumptions, and built products that, in small but meaningful ways, made life a little easier or better for the users.</p>
+        <p>Today, I work with AI. Not because it is new or impressive, but because I believe it will profoundly change how we create, decide, and imagine the future—and I want to be part of shaping that change with care and intention.</p>
+        <p>Beyond work, I'm drawn to nature and movement: swimming, skiing, rock climbing, tennis. Spiritually, I remain endlessly curious—about consciousness, creativity, and the unknown—continuing an inward journey alongside the outward one.</p>
+        <p class="closing">I love to create. I stay curious. And I'm still becoming.</p>
+      </div>
+    </section>
+
+    <!-- NOW -->
+    <section id="now">
+      <h2>now</h2>
+      <div class="section-content">
+        <div class="now-item">
+          <span class="now-label">where</span>
+          <span>Singapore</span>
+        </div>
+        <div class="now-item">
+          <span class="now-label">work</span>
+          <span>Building AI products in consulting — helping organisations think clearly about AI and put it to work with intention.</span>
+        </div>
+        <div class="now-item">
+          <span class="now-label">focus</span>
+          <span>How AI changes the way teams create, decide, and imagine what's possible.</span>
+        </div>
+        <div class="now-item">
+          <span class="now-label">reading</span>
+          <span>Anything on cognition, consciousness, and the edges of what machines can't yet do.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIGITAL GARDEN -->
+    <section id="digital-garden">
+      <h2>digital garden</h2>
+      <div class="section-content">
+        <p class="placeholder-text">Seeds being planted.<br />Come back soon.</p>
+      </div>
+    </section>
+
+    <!-- LEARNINGS -->
+    <section id="learnings">
+      <h2>learnings</h2>
+      <div class="section-content">
+        <p class="section-desc">Reflections, lessons, and ideas — mostly on Medium.</p>
+        <ul class="article-list">
+          <li>
+            <a
+              href="https://medium.com/@liyumeng714/what-i-learned-building-ai-products-in-2025-c70409f478f2"
+              target="_blank"
+              rel="noopener"
+              class="article-link"
+            >
+              <span class="article-title">What I Learned Building AI Products in 2025</span>
+              <span class="article-arrow">↗</span>
+            </a>
+            <span class="article-meta">Medium · 2025</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>contact</h2>
+      <div class="section-content">
+        <p>I'm always open to interesting conversations — about AI, products, the nature of things, or life in general.</p>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">writing</span>
+            <a href="https://medium.com/@liyumeng714" target="_blank" rel="noopener">Medium ↗</a>
+          </li>
+          <li>
+            <span class="contact-label">linkedin</span>
+            <a href="https://www.linkedin.com/in/yumeng-lii/" target="_blank" rel="noopener">Yumeng Li ↗</a>
+          </li>
+          <li>
+            <span class="contact-label">podcast</span>
+            <a href="https://www.xiaoyuzhoufm.com/podcast/65e5b898fd3f8c1384b8093e" target="_blank" rel="noopener">小宇宙 ↗</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
