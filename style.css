@@ -272,6 +272,12 @@ h2 {
   padding-top: 3px;
 }
 
+.now-footer {
+  margin-top: 32px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
 /* ─── Digital Garden ────────────────────────────── */
 .placeholder-text {
   font-family: var(--font-serif);
